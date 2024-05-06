@@ -1,6 +1,6 @@
 # ComfyUI-Prompt-Preview
-Welcome to ComfyUI Prompt Preview, where you can visualize the styles from [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler).
-![demo](./assets/demo.gif)
+Welcome to ComfyUI SDXL Style Preview, where you can visualize the styles from [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler).
+![demo](./assets/screen.png)
 
 ## Overview
 This repository provides a glimpse into the styles offered by **SDXL Prompt Styler**, showcasing its capabilities through preview images. Take a look at how your prompts could appear with the various styles available.
