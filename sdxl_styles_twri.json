@@ -270,7 +270,7 @@
         "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful"
     },
     {
-        "name": "杂项-通话",
+        "name": "杂项-童话",
         "prompt": "fairy tale {prompt} . magical, fantastical, enchanting, storybook style, highly detailed",
         "negative_prompt": "realistic, modern, ordinary, mundane"
     },
