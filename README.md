@@ -7,8 +7,10 @@
 1、分组功能；
 2、预览图功能；
 3、包含319种艺术风格（原版107种）；
+本插件内的预览图都是由SDXL生成。
 
 
 ## 参考
 - [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler)
 - [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+打赏资源，下载自由![demo](./assets/赞赏码.JPG)
