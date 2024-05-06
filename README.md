@@ -14,4 +14,4 @@
 - [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler)
 - [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
 
-- 打赏资源，下载自由![demo](./assets/赞赏码.png)
+- 打赏自愿，下载自由![demo](./assets/赞赏码.png)
