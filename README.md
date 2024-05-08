@@ -1,7 +1,7 @@
 # ComfyUI-Prompt-Preview
 欢迎来到ComfyUI SDXL Style Preview, 本插件是sdxl_prompt_styler的升级版，原版插件请访问 [sdxl_prompt_styler](https://github.com/twri/sdxl_prompt_styler).
-- ![demo](./assets/screen-1.png)
-![demo](./assets/screen-2.png)
+- 插件截图：![demo](./assets/screen-1.png)
+- 插件截图：![demo](./assets/screen-2.png)
 
 ## 功能介绍
 本插件的优势：
