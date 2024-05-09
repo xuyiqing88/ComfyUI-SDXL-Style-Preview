@@ -4,7 +4,8 @@
 - ![demo](./assets/screen-1.png)
 - 插件界面截图：
 - ![demo](./assets/screen-2.png)
-
+- 插件使用方法(工作流)截图：
+- ![demo](./assets/screen-3.png)
 ## 功能介绍
 - 本插件只适用于SDXL及以上版本，不适用SD1.5模型。可以实现只连接SDXL大模型（包括但不限于XL基础版、XL-Lightning版、第三方微调版等）就可以画出不同风格的图，无需LoRA。
 - 本插件内的预览图都是由本人使用SDXL模型生成，无版权纠纷。 [界面的汉化请点击这里下载](https://pan.quark.cn/s/a0e2d7393be1)
