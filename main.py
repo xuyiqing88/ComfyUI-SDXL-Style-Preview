@@ -94,7 +94,7 @@ def populate_items(styles, item_type):
                 "preview": preview_path
             }
         else:
-            print(f"Warning: Preview image '{item_name}.png' not found for item '{item_name}'")
+            # print(f"Warning: Preview image '{item_name}.png' not found for item '{item_name}'")
             styles[idx] = {
                 "content": content,
                 "preview": None
