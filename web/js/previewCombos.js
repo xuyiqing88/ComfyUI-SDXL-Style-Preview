@@ -17,8 +17,8 @@ app.registerExtension({
 				.preview-combo-image {
 					display: none;
 					position: absolute;
-					left: 120px;
-					top: -120px;
+					left: 180px;
+					top: 0px;
 					width: 384px;
 					height: 384px;
 					background-size: contain;
