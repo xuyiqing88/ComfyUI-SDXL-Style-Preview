@@ -1,6 +1,8 @@
 
 import numpy as np
 import os
+import re
+import json
 import folder_paths
 from PIL import Image, ImageOps, ImageSequence
 import hashlib
@@ -64,14 +66,25 @@ async def view(request):
     filename = os.path.basename(image_path)
     return web.FileResponse(image_path, headers={"Content-Disposition": f"filename=\"{filename}\""})
 
+def get_config():
+    config_file = os.path.join(os.path.dirname(__file__), "config.json")
+    with open(config_file, 'r') as f:
+        data = json.load(f)
+        if 'decollator' in data:
+            return data['decollator']
+        else:
+            return '[_|-]'
 
 def populate_items(styles, item_type):
     for idx, item_name in enumerate(styles):
         current_directory = os.path.dirname(os.path.abspath(__file__))
         preview_path = os.path.join(current_directory, item_type, item_name + ".png")
 
-        if len(item_name.split('-')) > 1:
-            content = f"{item_name.split('-')[0]} /{item_name}"
+        decollator = get_config()
+
+        parts = re.split(decollator, item_name)
+        if len(parts) > 1:
+            content = f"{parts[0]} /{item_name}"
         else:
             content = item_name
 
@@ -81,7 +94,7 @@ def populate_items(styles, item_type):
                 "preview": preview_path
             }
         else:
-            print(f"Warning: Preview image '{item_name}.png' not found for item '{item_name}'")
+            # print(f"Warning: Preview image '{item_name}.png' not found for item '{item_name}'")
             styles[idx] = {
                 "content": content,
                 "preview": None
