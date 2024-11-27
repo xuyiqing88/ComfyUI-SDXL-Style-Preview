@@ -460,6 +460,16 @@
         "negative_prompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
     },
     {
+        "name": "照片-影棚摄影",
+        "prompt": "Studio photography, {prompt}.  professional lighting, HD detail, simple background",
+        "negative_prompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
+    },
+    {
+        "name": "照片-韩流摄影",
+        "prompt": "Kpop style colors, {prompt}. shot at night with studio lights, album artwork, streaming on twitch, cyberpunk shadow dramatic lighting by Bill Sienkiewicz",
+        "negative_prompt": "worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch"
+    },
+    {
 
         "name": "其他-电影女主角",
 
@@ -545,7 +555,24 @@
         "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast"
 
     },
+    {
 
+        "name": "其他-卡通3D图标",
+
+        "prompt": "Cartoon 3D icon, {prompt} . UI icon, 3D rendering, smooth ashiny! realistic use of light and color, soft gradient, best details, higdefinition, high resolution",
+
+        "negative_prompt": "photo, deformed, monochrome, black and white, realism, disfigured"
+
+    },
+    {
+
+        "name": "其他-黏土风",
+
+        "prompt": "Colorful clothes and backgrounds, clay style {prompt}. Sculpture, surface fingerprints, Earthy tone, clay art, centered composition, Claymation",
+
+        "negative_prompt": "sloppy, messy, grainy, highly detailed, ultra textured, photo"
+
+    },
     {
 
         "name": "艺术2-装饰艺术",
@@ -1208,7 +1235,7 @@
 
     {
 
-        "name": "艺术2-泰拉根",
+        "name": "艺术2-大地艺术",
 
         "prompt": "Terragen, {prompt}, beautiful massive landscape, epic scenery, Terragen",
 
@@ -1277,7 +1304,7 @@
     },
     {
         "name": "Cyberbill-性感女孩",
-        "prompt": "explicit photo shooting style {prompt} . casting pose, caucasian, perfect rond breast, perfect body,highly detailed, perfect hands, extremely realistic face,perfect eyes and long eyelashes,  symmetrical perfect eyes, skin pores, ultra detailed, RAW photo",
+        "prompt": "explicit photo shooting style {prompt} . casting pose, perfect rond breast, perfect body,highly detailed, perfect hands, extremely realistic face,perfect eyes and long eyelashes,  symmetrical perfect eyes, skin pores, ultra detailed, RAW photo",
         "negative_prompt": "disfigured, disproportionate, bad anatomy, bad proportions, ugly, out of frame, mangled, asymmetric, cross-eyed, depressed, immature, stuffed animal, out of focus, high depth of field, cloned face, cloned head, age spot, skin blemishes, collapsed eyeshadow, asymmetric ears, imperfect eyes, unnatural, conjoined, missing limb, missing arm, missing leg, poorly drawn face, poorly drawn feet, poorly drawn hands, floating limb, disconnected limb, extra limb, malformed limbs, malformed hands, poorly rendered face, poor facial details, poorly rendered hands, double face, unbalanced body, unnatural body, lacking body, long body, cripple, old, fat, cartoon, 3D, weird colors, unnatural skin tone, unnatural skin, stiff face, fused hand, skewed eyes, surreal, cropped head, group of people"
     },
     {
@@ -1313,7 +1340,7 @@
     },
     {
 	"name": "Cyberbill-充气娃娃",
-	"prompt": "(Latex love doll:1.3) ((open mouth, pouty lips :1.7)) fake hairs {prompt} . caucasian, perfect rond breast, perfect body, highly detailed, perfect hands, perfect eyes and long eyelashes,  symmetrical perfect eyes , ultra detailed, RAW photo",
+	"prompt": "(Latex love doll:1.3) ((open mouth, pouty lips :1.7)) fake hairs {prompt} . perfect rond breast, perfect body, highly detailed, perfect hands, perfect eyes and long eyelashes,  symmetrical perfect eyes , ultra detailed, RAW photo",
 	"negative_prompt":"cropped, regular face, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, cropped, out of frame, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, current, modern, saturated, bright color, futuristic, unreal, professional, poorly framed, cut out, subject out of frame"
     },
     {
