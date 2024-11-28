@@ -575,6 +575,24 @@
     },
     {
 
+        "name": "其他-青铜雕塑",
+
+        "prompt": "Bronze sculpture of {prompt}, copper rust, Renaissance art, European Sculpture style, works by Michelangelo",
+
+        "negative_prompt": "abstract, vibrant colors"
+
+    },
+    {
+
+        "name": "其他-大理石雕塑",
+
+        "prompt": "Marble sculpture of {prompt}, white surface, Renaissance art, European Sculpture style, works by Michelangelo",
+
+        "negative_prompt": "abstract, vibrant colors"
+
+    },
+    {
+
         "name": "艺术2-装饰艺术",
 
         "prompt": "Art Deco, {prompt}, sleek, geometric forms, art deco style",
