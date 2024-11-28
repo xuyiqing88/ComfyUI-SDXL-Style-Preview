@@ -200,6 +200,11 @@
 		"negative_prompt": "Chinese writing, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
 	},
 	{
+		"name": "绘画 | 中国工笔画",
+		"prompt": "Traditional Chinese realistic painting, Gongbi, {prompt}. It uses highly detailed brushstrokes that delimit details very precisely.  It is highly colored.",
+		"negative_prompt": "Chinese writing, signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
+	},
+	{
 		"name": "绘画 | 数码绘画",
 		"prompt": "{prompt},Digital painting art style, dynamic composition, professional-grade execution",
 		"negative_prompt": "signature, watermark, photo, photorealistic, realism, ugly, off-center, deformed, 35mm film, dslr, cropped, frame, worst quality, low quality, lowres, JPEG artifacts"
