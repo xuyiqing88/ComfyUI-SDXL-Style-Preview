@@ -18,7 +18,7 @@ app.registerExtension({
 					display: none;
 					position: absolute;
 					left: 180px;
-					top: 0px;
+					top: -120px;
 					width: 384px;
 					height: 384px;
 					background-size: contain;
